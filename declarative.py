@@ -1,6 +1,7 @@
 from sqlalchemy import Table, MetaData, Column, Integer, String, create_engine
 from sqlalchemy.orm import mapper, sessionmaker
 
+
 engine = create_engine('mysql+mysqlconnector://root:maria@localhost:3306/sqlalchemy_mysql')
 connection = engine.connect()
 metadata = MetaData()

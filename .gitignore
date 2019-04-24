@@ -173,3 +173,5 @@ venv.bak/
 
 .idea
 college.db
+college.db sqlachemy_sqlite.db sqlalchemy_cs.db sqlalchemy_csv.db sqlalchemy_sqlite.db
+*.db
